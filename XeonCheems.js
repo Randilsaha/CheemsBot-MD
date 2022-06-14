@@ -617,7 +617,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
                 }
             }
             break
-	    case 'family100hdiejebdjdijdjdjdj': { //this is in indonesian so if u want to activate u can but will be in indonesian
+	    case 'family100hd': { //this is in indonesian so if u want to activate u can but will be in indonesian
                 if ('family100'+m.chat in _family100) {
                     reply('There are still unfinished sessions!')
                     throw false
@@ -634,7 +634,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
                 }
             }
             break
-            case 'halahkdkdkd': case 'hilihdkksls': case 'huluhkdksls': case 'helehkdkdkd': case 'holohkdkskks': //this is in indonesian so if u want to activate u can but will be in indonesian (thanks to respected creator of this case)
+            case 'halahkdkdkd': case 'hilihdkksls': case 'huluhkdksls': case 'helehkdkdkd': case 'tstcmd1': //this is in indonesian so if u want to activate u can but will be in indonesian (thanks to respected creator of this case)
             if (!m.quoted && !text) throw `Send/reply text with caption ${prefix + command}`
             ter = command[1].toLowerCase()
             tex = m.quoted ? m.quoted.text ? m.quoted.text : q ? q : m.text : q ? q : m.text
@@ -861,7 +861,7 @@ Ciee Whats Going On💖👀`
                 reply(mess.success)
                 }
                 break
-           case 'setppgroup': case 'setgrouppp': case 'setgcpp': case 'setppgrup': case 'setppgc': {
+           case 'setppgroup': case 'setgrouppp': case 'setgpp': case 'setppgrup': case 'setppgc': {
                 if (!m.isGroup) throw mess.group
                 if (!isAdmins) throw mess.admin
                 if (!quoted) throw `Send/Reply Image With Caption ${prefix + command}`
@@ -1076,7 +1076,7 @@ break
             reply('Successfully Deleted Vote Session In This Group')
 	    }
             break
-               case 'group': case 'grup': {
+               case 'group': case 'unmute': {
                 if (!m.isGroup) throw mess.group
                 if (!isBotAdmins) throw mess.botAdmin
                 if (!isAdmins) throw mess.admin
@@ -1209,8 +1209,8 @@ case 'antilink':
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://github.com/DGXeon/CheemsBot-MD'
+                                    displayText: 'Group link 🍭🌈',
+                                    url: 'https://chat.whatsapp.com/Gi47BN7YM30321sUIa7mtT'
                                 }
                             }, {
                                 callButton: {
@@ -1242,7 +1242,7 @@ case 'antilink':
             break
             case 'bc': case 'broadcast': case 'bcall': {
                 if (!isCreator) throw mess.owner
-                if (!text) throw `Where is the text?\n\nExample : ${prefix + command} cheems bot here`
+                if (!text) throw `Where is the text?\n\nExample : ${prefix + command} nep bot here`
                 let anu = await store.chats.all().map(v => v.id)
                 reply(`Send Broadcast To ${anu.length} Chat\nIn ${anu.length * 1.5} second`)
 		for (let yoi of anu) {
@@ -1346,7 +1346,7 @@ case 'antilink':
             reply(db)
         }
         break
-            case 'emojimix': {
+            case 'emojimix': case 'emomix': {
 	        if (!text) throw `Example : ${prefix + command} 😅+🤔`
 		let [emoji1, emoji2] = text.split`+`
 		let anu = await fetchJson(`https://tenor.googleapis.com/v2/featured?key=AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ&contentfilter=high&media_filter=png_transparent&component=proactive&collection=emoji_kitchen_v5&q=${encodeURIComponent(emoji1)}_${encodeURIComponent(emoji2)}`)
@@ -1489,7 +1489,7 @@ case 'antilink':
                 })
                 }
                 break
-        case 'gimage': case 'googleimage': {
+        case 'gimage': case 'img': {
         if (!text) throw `Example : ${prefix + command} ml nana`
         let gis = require('g-i-s')
         gis(text, async (error, result) => {
@@ -1574,7 +1574,7 @@ message = await prepareWAMessageMedia({ image : { url: anu.thumbnail } }, { uplo
                 XeonBotInc.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `⭔ Title : ${media.title}\n⭔ File Size : ${media.filesizeF}\n⭔ Url : ${isUrl(text)}\n⭔ Ext : MP3\n⭔ Resololution : ${args[1] || '360p'}` }, { quoted: m })
             }
             break
-	    case 'getmusic': {
+	    case 'yta: {
                 let { yta } = require('./lib/y2mate')
                 if (!text) throw `Example : ${prefix + command} 1`
                 if (!m.quoted) return reply('Reply Message')
@@ -1588,7 +1588,7 @@ message = await prepareWAMessageMedia({ image : { url: anu.thumbnail } }, { uplo
                 XeonBotInc.sendMessage(m.chat, { audio: { url: media.dl_link }, mimetype: 'audio/mpeg', fileName: `${media.title}.mp3` }, { quoted: m })
             }
             break
-            case 'getvideo': {
+            case 'ytv': {
                 let { ytv } = require('./lib/y2mate')
                 if (!text) throw `Example : ${prefix + command} 1`
                 if (!m.quoted) return reply('Reply To A Message That Has Been Already Sent')
@@ -1672,7 +1672,7 @@ message = await prepareWAMessageMedia({ image : { url: anu.thumbnail } }, { uplo
                 XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
             }
             break
-            case 'quotesanimekdksksksksk': case 'quoteanimexllzlzkl': {
+            case 'quotesanime': case 'quoteanimexllzlzkl': {
 		let { quotesAnime } = require('./lib/scraper')
                 let anu = await quotesAnime()
                 result = anu[Math.floor(Math.random() * anu.length)]
@@ -1804,7 +1804,7 @@ message = await prepareWAMessageMedia({ image : { url: anu.thumbnail } }, { uplo
                 XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
             }
             break
-            case 'tiktokwm': case 'tiktokwatermark': {
+            case 'tiktokdown': case 'tiktokwatermark': {
                 if (!text) throw 'Enter Query Link!'
                 replay(mess.wait)
                 let anu = await fetchJson(api('zenz', '/downloader/tiktok', { url: text }, 'apikey'))
@@ -1906,14 +1906,14 @@ message = await prepareWAMessageMedia({ image : { url: anu.thumbnail } }, { uplo
                 XeonBotInc.sendMessage(m.chat, { audio: { url: anu.result.audio } }, { quoted: msg })
             }
             break
-	        case 'fbdlkxkxkx': case 'fbkckxkxk': case 'facebookjfkddkk': {
+	        case 'fbdowm': case 'fbkckxkxk': case 'facebookjfkddkk': {
                 if (!text) throw 'Enter Query Link!'
                 replay(mess.wait)
                 let anu = await fetchJson(api('zenz', '/api/downloader/facebook', { url: text }, 'apikey'))
                 XeonBotInc.sendMessage(m.chat, { video: { url: anu.result.url }, caption: `⭔ Title : ${anu.result.title}`}, { quoted: m })
             }
             break
-	        case 'pindlkxkdksk': case 'pinterestdlksksks': {
+	        case 'pindown': case 'pinterestdlksksks': {
                 if (!text) throw 'Enter Query Link!'
                 replay(mess.wait)
                 let anu = await fetchJson(api('zenz', '/api/downloader/pinterestdl', { url: text }, 'apikey'))
