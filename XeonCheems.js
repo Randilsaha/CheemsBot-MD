@@ -2367,7 +2367,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
            XeonBotInc.sendMessage(m.chat, { audio: devsound, mimetype: 'audio/mp4', ptt: true, quoted: m })
             }
             break
-                    case 'bug': case 'report': {
+                    case 'botbug': case 'botreport': {
                     	if(!text) throw `Enter The Bug Example\n\n${command} Menu Error `
                     	XeonBotInc.sendMessage(`916909137213@s.whatsapp.net`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
 Report Message: ${text}` })
@@ -2376,7 +2376,7 @@ reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, 
                     break 
 case 'tes': case 'test': case 'alive': case 'bot': case 'robot': case 'cheems': case 'doge':{
                 anu = `Hi ${pushname}
-Cheems Bot With You Forever!! 🐶🤚`
+Nep Bot With You Forever!! 😊🤚`
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
@@ -2386,8 +2386,8 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'Group link 🍭🌈',
+                                    url: 'https://chat.whatsapp.com/Gi47BN7YM30321sUIa7mtT'
                                 }
                             }, {
                             	urlButton: {
@@ -2396,12 +2396,12 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🍇All Menu🍇',
+                                    displayText: '🍫All Menu🍫',
                                     id: `${prefix}allmenu`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '🍒List Menu🍒',
+                                    displayText: '🍰List Menu🍰',
                                     id: `${prefix}command`
                                 }
                                 }, {
@@ -2447,8 +2447,7 @@ Please Select Button Below
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
-                                }
+                                    url: 'https://chat.whatsapp.com/Gi47BN7YM30321sUIa7mtT'
                             }, {
                             	urlButton: {
                                 displayText: 'Script🔖',
@@ -2456,12 +2455,12 @@ Please Select Button Below
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🍇All Menu🍇',
+                                    displayText: '🍫All Menu🍫',
                                     id: `${prefix}allmenu`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '🍒List Menu🍒',
+                                    displayText: '🍰List Menu🍰',
                                     id: `${prefix}command`
                                 }
                                 }, {
@@ -2482,7 +2481,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                     title: `Hi ${pushname}`,
                     description: `Please Choose The Menu\n\n`,
                     buttonText: "Menu",
-                    footerText: "_Cheems Bot-MD_",
+                    footerText: "_Nep Bot-MD_",
                     listType: "SINGLE_SELECT",
                     sections: [{
 								"title": "Group Features",
@@ -2616,8 +2615,8 @@ case 'grupmenu': {
                             hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'Group link 🍭🌈',
+                                    url: 'https://chat.whatsapp.com/Gi47BN7YM30321sUIa7mtT'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2658,8 +2657,8 @@ case 'downloadmenu': {
                             hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'Group link 🍭🌈',
+                                    url: 'https://chat.whatsapp.com/Gi47BN7YM30321sUIa7mtT'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2695,8 +2694,8 @@ case 'downloadmenu': {
                             hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'Group link 🍭🌈',
+                                    url: 'https://chat.whatsapp.com/Gi47BN7YM30321sUIa7mtT'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2726,8 +2725,8 @@ case 'randommenu': {
                             hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'Group link 🍭🌈',
+                                    url: 'https://chat.whatsapp.com/Gi47BN7YM30321sUIa7mtT'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2758,8 +2757,8 @@ case 'funmenu': {
                             hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'Group link 🍭🌈',
+                                    url: 'https://chat.whatsapp.com/Gi47BN7YM30321sUIa7mtT'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2798,8 +2797,8 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'Group link 🍭🌈',
+                                    url: 'https://chat.whatsapp.com/Gi47BN7YM30321sUIa7mtT'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2832,8 +2831,8 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'Group link 🍭🌈',
+                                    url: 'https://chat.whatsapp.com/Gi47BN7YM30321sUIa7mtT'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2890,8 +2889,8 @@ case 'horoscopemenukcodk': {
                             hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'Group link 🍭🌈',
+                                    url: 'https://chat.whatsapp.com/Gi47BN7YM30321sUIa7mtT'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2928,8 +2927,8 @@ case 'convertmenu': {
                             hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'Group link 🍭🌈',
+                                    url: 'https://chat.whatsapp.com/Gi47BN7YM30321sUIa7mtT'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2968,8 +2967,8 @@ case 'nocategorymenu': {
                             hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'Group link 🍭🌈',
+                                    url: 'https://chat.whatsapp.com/Gi47BN7YM30321sUIa7mtT'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3005,8 +3004,8 @@ case 'databasemenu': {
                             hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'Group link 🍭🌈',
+                                    url: 'https://chat.whatsapp.com/Gi47BN7YM30321sUIa7mtT'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3037,8 +3036,8 @@ case 'anonymouschatmenu': {
                             hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'Group link 🍭🌈',
+                                    url: 'https://chat.whatsapp.com/Gi47BN7YM30321sUIa7mtT'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3069,8 +3068,8 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'Group link 🍭🌈',
+                                    url: 'https://chat.whatsapp.com/Gi47BN7YM30321sUIa7mtT'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3106,8 +3105,8 @@ break
                             hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'Group link 🍭🌈',
+                                    url: 'https://chat.whatsapp.com/Gi47BN7YM30321sUIa7mtT'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3125,7 +3124,7 @@ break
   	anu = `
   *All Menu*
   
-  ꪶ🐕Group Menu🐕ꫂ
+  ꪶ🍬Group Menu🍬ꫂ
   ➙ ${prefix}grouplink
   ➙ ${prefix}ephemeral [option]
   ➙ ${prefix}setgrouppp
@@ -3138,7 +3137,7 @@ break
   ➙ ${prefix}promote @user
   ➙ ${prefix}demote @user
   
-  ꪶ🐕Download Menu🐕ꫂ
+  ꪶ🍬Download Menu🍬ꫂ
   ➙ ${prefix}tiktoknowm [url]
   ➙ ${prefix}tiktokwm [url]
   ➙ ${prefix}tiktokmp3 [url]
@@ -3153,7 +3152,7 @@ break
   ➙ ${prefix}getmusic [query]
   ➙ ${prefix}getvideo [query
   
-  ꪶ🐕Search Menu🐕ꫂ
+  ꪶ🍬Search Menu🍬ꫂ
   ➙ ${prefix}play [query]
   ➙ ${prefix}yts [query]
   ➙ ${prefix}google [query]
@@ -3163,16 +3162,16 @@ break
   ➙ ${prefix}wikimedia [query]
   ➙ ${prefix}ytsearch [query]
   
-  ꪶ🐕Random Menu🐕ꫂ
+  ꪶ🍬Random Menu🍬ꫂ
   ➙ ${prefix}coffee
   ➙ ${prefix}couplepp
   
-  ꪶ🐕Fun Menu🐕ꫂ
+  ꪶ🍬Fun Menu🍬ꫂ
   ➙ ${prefix}couple
   ➙ ${prefix}mysoulmate
   ➙ ${prefix}math [mode]  
   
-  ꪶ🐕Voice Changer Menu🐕ꫂ
+  ꪶ🍬Voice Changer Menu🍬ꫂ
   ➙ ${prefix}bass
   ➙ ${prefix}blown
   ➙ ${prefix}deep
@@ -3185,7 +3184,7 @@ break
   ➙ ${prefix}slow
   ➙ ${prefix}squirrel
    
-  ꪶ🐕Convert Menu🐕ꫂ
+  ꪶ🍬Convert Menu🍬ꫂ
   ➙ ${prefix}toimage
   ➙ ${prefix}removebg
   ➙ ${prefix}sticker
@@ -3196,7 +3195,7 @@ break
   ➙ ${prefix}ebinary
   ➙ ${prefix}dbinary
   
-  ꪶ🐕Misc Menu🐕ꫂ
+  ꪶ🍬Misc Menu🍬ꫂ
   ➙ ${prefix}ping
   ➙ ${prefix}owner
   ➙ ${prefix}donate
@@ -3209,7 +3208,7 @@ break
   ➙ ${prefix}listonline
   ➙ ${prefix}report (report bug to owner)
   
-  ꪶ🐕Database Menu🐕ꫂ
+  ꪶ🍬Database Menu🍬ꫂ
   ➙ ${prefix}setcmd
   ➙ ${prefix}listcmd
   ➙ ${prefix}delcmd
@@ -3219,17 +3218,17 @@ break
   ➙ ${prefix}getmsg
   ➙ ${prefix}delmsg
   
-  ꪶ🐕Anonymous Menu🐕ꫂ
+  ꪶ🍬Anonymous Menu🍬ꫂ
   ➙ ${prefix}start ( Start Chat )
   ➙ ${prefix}next ( Next user )
   ➙ ${prefix}stop ( stop Anonymous chat )
   
-  ꪶ🐕System Menu🐕ꫂ
+  ꪶ🍬System Menu🍬ꫂ
   ➙ ${prefix}antilink On/Off
   ➙ ${prefix}mute On/Off
   ➙ ${prefix}antiwame On/Off
   
-  ꪶ🐕Owner Menu🐕ꫂ
+  ꪶ🍬Owner Menu🍬ꫂ
   ➙ ${prefix}chat [option]
   ➙ ${prefix}join [link]
   ➙ ${prefix}leave
@@ -3247,8 +3246,8 @@ break
                             hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'Group link 🍭🌈',
+                                    url: 'https://chat.whatsapp.com/Gi47BN7YM30321sUIa7mtT'
                                 }
                             }, {
                                 quickReplyButton: {
